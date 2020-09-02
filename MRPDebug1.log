@@ -1,0 +1,218 @@
+============= 
+MRP Debug Log 
+============= 
+ 
+Checking for OEM folder and structure... 
+OEM's folder structure appears to be correct. 
+ 
+Checking for CustomTheme... 
+CustomTheme was not defined. 
+ 
+Check Lock/Login screen variable state... 
+Lock/Login screen variable = Can be used for Kernel: 10.0 
+Lock/Login screen's will be replaced as defined by user option. 
+ 
+Transfer of Options to new Users was disabled. 
+ 
+Prechecks Done - Start Main Section... 
+ 
+OS Installation Date/Time : 04/26/2020 {UTC} -- 10:33am 
+MRP Version Installed     : CY19M08D18-R116.0.BL 
+MRP Config File Used      : N/A 
+ 
+Unicode Mode              : Operative 
+Original Codepage         : 437 
+  
+========= 
+Variables 
+========= 
+Oobe State     : System Controlled 
+Install Type   : Client {Non Server} 
+HyperVisor     : No 
+PC System Type : Mobile {0x2} 
+Chassis Type   : 10 - Notebook 
+Domain Detected: No 
+OS Name {Reg}  : Windows 10 Pro 
+OS SKU Version : Windows 10 Pro {48} 
+OS Architecture: x64 {AR:1} 
+Edition {REG}  : Professional 
+Edition {WMIC} : Professional 
+Edition {Comp} : Enterprise 
+Edition {OSED} : Professional 
+Release ID     : 1903 
+Build ID {R}   : 18362 
+Build ID {V}   : 18362 
+Build Branch{R}: 19h1_release 
+Reference Ver  : 10.0.18362.1 
+ProductID Ref  : 3308 
+Base Build Rev : 1 {0x1h} 
+UBR            : 418 
+RS3 Plus       : Yes 
+RS4 Plus       : Yes 
+RS5 Plus       : Yes 
+Language/Code  : en-US / 1033 {0x409h} 
+Locale         : English – United States 
+Time Zone Data : Pacific Standard Time 
+ 
+=============== 
+Main Processing 
+=============== 
+Obtaining Motherboard information. 
+Checking for SLIC and MSDM tables. 
+ 
+==================== 
+  DMI  Information 
+==================== 
+CSNAME             : [20FAS42800] 
+SYSMODEL           : [20FAS42800] 
+BASEPRO            : [20FAS42800] 
+CSVENDOR           : [LENOVO] 
+SYSMNF             : [LENOVO] 
+BASEMNF            : [LENOVO] 
+ 
+BIOS or SLIC ID 1  : LENOVO - 1470 
+SLIC Information   : Invalid\Dummy SLIC Table Data 
+MSDM Information   : No MSDM Table Present 
+ 
+ 
+Checking CPU and Memory information... 
+Checking number of CPU's fitted. 
+Checking CPU Max Clock Speed. 
+Checking CPU Cores. 
+Checking CPU Manufacturer. 
+Checking CPU Threads. 
+Checking CPU Name. 
+Checking CPU Description. 
+Checking CPU Datawidth, {Bits}. 
+Checking CPU ID. 
+Checking if CPU Virtualization mode is active or not. 
+  
+Checking Memory configuration. 
+SMBIOS Memory Type: DDR4 {26}. 
+Checking Memory Error Correction type. 
+Checking Memory Devices/Slots. 
+Checking Memory Max Capacity. 
+Total Memory - 15.86 GB 
+Used Memory  - 756.15 MB 
+Free Memory  - 15.12 GB [95.34%] 
+  
+Checking Meltdown/Spectre awareness. 
+  
+Show User Options display section. 
+Drive Label Section. 
+ 
+Checking for 'Retail.txt'. 
+The 'Retail.txt' file was not detected within the 'Scripts' folder. 
+ 
+Checking for 'ei.cfg'. 
+The 'ei.cfg' file was not detected. 
+ 
+Checking for 'Pid.txt'. 
+The 'PID.txt' file was not detected. 
+ 
+Querying DMI for any OEM brand information. 
+ 
+==================== 
+   DMI Processing    
+==================== 
+CSVENDOR           : DMI + Database = Possible Match [Lenovo]. 
+ 
+No DMI conflicts found. 
+DMI query routine has completed. 
+ 
+ 
+Bypassed Virtual Machine data checks as DMI [Lenovo] was detected.  
+ 
+Lenovo [#04] manufacturer was detected for automated theme/branding. 
+BIOS defined '20FAS42800' model name has been applied. 
+Theme Processing Routines. 
+User specified theme was not defined. 
+DMI theme 'Lenovo' will be applied. 
+Transfer Section. 
+Windows 10: Main User Account Picture Management 
+Windows 10: Additional User Account Picture Management. 
+Processing Lock/Login Screen Routines. 
+Replaced 'img100' file. 
+Replaced 'img105' file. 
+See Project.log for more details of above sections. 
+Processing Brand/Theme Files Transfer Routines. 
+Set 'InstallTheme' and 'CurrentTheme' registry modes. 
+Theme files have been transferred. 
+Aero.theme was backed up and replaced. 
+Lenovo OEM brand theme has been applied. 
+Checking for SetupComplete/FirstLogon files within the 'Scripts' folder: 
+SetupComplete.cmd was detected. 
+May cause malfunction of the project if deletion of the 'Scripts' folder is done within this file. 
+ 
+Branding script has completed. The SetupComplete.cmd script will now be run via Windows Setup.  
+ 
+ 
+============================================================================= 
+======================== Addon Manager - Log Section ======================== 
+============================================================================= 
+ 
+Edition Chk    : [Professional] {Ed0} 
+Edition Chk1   : [Professional] {Ed1} 
+Edition Chk2   : [Professional] {W2S} 
+Pre Windows 10 : [No] 
+Theme Reg Tweak: [Applied for build 18362] 
+Transfer Opts  : [No] 
+ 
+===[ Built-In 'Administrator' Details ]=== 
+Localized Name   : Administrator 
+Account Active   : No {Disabled} 
+Account Status   : Degraded 
+  
+ 
+DefUsr0 Removal: [Method 1N - Successful]  
+ 
+TB/HL Routine  : [Default Colors] 
+TitleBar Color : [Blue] 
+HiLite Color   : [Default] 
+AccentColor    : [Default] 
+ColorizationCol: [Default] 
+AccPalletColor : [Default] 
+ 
+Bios Mode and OS Drive Partition Information 
+============================================ 
+A-Routine BMode: [UEFI] 
+A-Routine DPart: [GPT] 
+WMIC BMode     : [GPT System] 
+WMIC DPart     : [GPT] 
+SecureBoot     : [{Q} Disabled] 
+Controller Mode: [{I} AHCI] 
+ 
+Other Data 
+========== 
+AO1 Flags S1   : [DUT=0], [DWT=0], [DAT=0], [DPA=0], [DOU=0], [DSC=0], [DFL=0] 
+AO2 Flags S2   : [PRI=0], [A2B=0], [B2Z=0], [MKU=0], [OSP=0], [OPT=0] 
+AO2 Flags S3   : [SEC=0] 
+DT Prot Status : [Disabled] 
+ 
+First Tidy Up  : Started 
+First Tidy Up  : Used Files 
+First Tidy Up  : Used Environment Variables 
+First Tidy Up  : Completed 
+ 
+Detecting Activation Status... 
+Detecting Activation Status - Done. 
+Detecting License Channel Type... 
+Detecting License Channel Type - Done. Retail {PKC} 
+ 
+================ License Status ================ 
+License Status  : Notification 
+Channel Status  : Retail {PKC} 
+VL/KMS Capable  : Yes 
+Reason Code     : 0xC004F034 {Dec: 3221549108} 
+Reason Text     : License not found/invalid or could not connect to the Activation Server.  
+ 
+Final Tidy Up  : Started 
+Final Tidy Up  : Redundant Files 
+Final Tidy Up  : Redundant Environment Variables 
+Final Tidy Up  : Completed 
+ 
+Unicode Mode   : Deactivated 
+Orig Codepage  : 437 
+ 
+---------------------------------------------------------------------- 
+MRP Debug Log Completed. 
